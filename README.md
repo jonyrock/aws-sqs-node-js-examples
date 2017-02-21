@@ -10,7 +10,7 @@ apt-get dist-upgrade -y
 apt-get autoremove -y
 apt-get install nodejs npm git -y
 ln -s /usr/bin/nodejs /usr/bin/node
-git clone https://github.com/andrewpuch/aws-sqs-node-js-examples.git
+git clone git@github.com:jonyrock/aws-sqs-node-js-examples.git
 cd aws-sqs-node-js-examples
 npm install
 cp config-sample.json config.json
